@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: twesleyb
+Version: 0.0.1
+Summary: Miscellanous python functions
+Home-page: https://github.com/twesleyb/TBmiscPy
+Author: Tyler W A Bradshaw
+Author-email: twesleyb10@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

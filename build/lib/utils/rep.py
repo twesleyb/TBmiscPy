@@ -19,7 +19,7 @@ def rep(x, times=1, length=0, each=False):
         times = np.int(np.ceil(length / x.size))
     x = np.repeat(x, times)
     if(not each):
-        x = x.reshape(-1, times).T.ravel()
+        x = x.reshape(-1, times).T.ravel() 
     if length > 0:
         x = x[0:length]
     return(x)

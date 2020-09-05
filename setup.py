@@ -15,7 +15,10 @@ setuptools.setup(
     long_description="",
     long_description_content_type="",
     url="https://github.com/twesleyb/TBmiscPy",
-    packages=setuptools.find_packages(),
+    packages=['miscpy'],
+    package_dir={'miscpy':'src/miscpy/'},
+    #package_data
+    #packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

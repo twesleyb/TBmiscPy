@@ -1,7 +1,7 @@
 README.md
 setup.py
-src/miscpy/__init__.py
-src/miscpy/rep.py
+src/Py/__init__.py
+src/Py/rep.py
 twesleyb.egg-info/PKG-INFO
 twesleyb.egg-info/SOURCES.txt
 twesleyb.egg-info/dependency_links.txt

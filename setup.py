@@ -1,28 +1,52 @@
 #!/usr/bin/env python3
 
-import numpy
+'''
+This is a regular python file!
+'''
+
 import setuptools
 
 #with open("README.md", "r") as fh:
 #    long_description = fh.read()
 
 setuptools.setup(
-    name="twesleyb", # Replace with your own username
+
+    name="twesleyb",
+
     version="0.0.1",
+
     author="Tyler W A Bradshaw",
+
     author_email="twesleyb10@gmail.com",
-    description="Miscellanous python functions",
-    long_description="",
-    long_description_content_type="",
+
+    maintainer="twesleyb",
+
+    maintainer_email="twesleyb10@gmail.com",
+
     url="https://github.com/twesleyb/TBmiscPy",
-    packages=['miscpy'],
-    package_dir={'miscpy':'src/miscpy/'},
-    #package_data
-    #packages=setuptools.find_packages(),
+
+    description="miscellanous python functions",
+
+    #long_description=long_description,
+
+    #long_description_content_type="",
+
+    download_url="https://github.com/twesleyb/TBmiscPy",
+
+    packages=['TBmiscPy'],
+
+    package_dir={'TBmiscPy':'src/Py/'},
+
+    package_data={'TBmiscPy' : ['data/*']},
+
+    #data_files=[(data,[])],
+
+    #packages=setuptools.find_packages(), # automatically finds python code
+
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "License :: None"
     ],
+
     python_requires='>=3.6',
 )

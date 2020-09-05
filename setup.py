@@ -35,7 +35,7 @@ setuptools.setup(
 
     packages=['TBmiscPy'],
 
-    package_dir={'TBmiscPy':'src/Py/'},
+    package_dir={'TBmiscPy':'src/'},
 
     package_data={'TBmiscPy' : ['data/*']},
 

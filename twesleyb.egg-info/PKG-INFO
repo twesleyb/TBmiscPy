@@ -13,4 +13,5 @@ Description: UNKNOWN
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: None
+Requires: numpy
 Requires-Python: >=3.6
